@@ -39,7 +39,7 @@ if (isset($_POST['enviar'])) {
     }
 
     //conexion a BD
-    $bd = conexion('localhost', 'comodoroTurismo', 'root', 'casa123');
+    $bd = conexion('localhost', 'comodoroTurismo', 'root', '');
     //Busqueda segun datos
     $localidad = buscar($bd, 'comercio', 'localidad', $dato1, $dato2, 'tipo', $tipo1, $tipo2, $tipo3, $tipo4, $tipo5);
     //dd($localidad);
