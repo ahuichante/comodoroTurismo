@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
     //dd($_FILES);
     $datos = armarDatos($_POST);
     $imagen = imagenBD($_FILES);
-    $bd = conexion('localhost', 'comodoroTurismo', 'root', 'casa123');
+    $bd = conexion('localhost', 'comodoroTurismo', 'root', '');
     //dd($datos);
 }
 

@@ -6,7 +6,7 @@ require_once('controladores/funciones.php');
 
 $id = intval($_GET['id']);
 //dd($id);
-$bd = conexion('localhost', 'comodoroTurismo', 'root', 'casa123');
+$bd = conexion('localhost', 'comodoroTurismo', 'root', '');
 $localidad = buscar1($bd, 'estadia', $id);
 ?>
 <!doctype html>

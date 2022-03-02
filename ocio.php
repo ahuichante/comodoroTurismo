@@ -79,7 +79,7 @@ if (isset($_POST['enviar'])) {
   <!-- PHP NAVEGADOR -->
 
 
-  <?php require_once('Partials/navegador.php') ?>
+  <?php require_once('partials/navegador.php') ?>
   <!--Test de script-->
   <section class="py-5 bg-info opacity-75 rounded-1">
     <div class="py-lg-5 bg-info ">

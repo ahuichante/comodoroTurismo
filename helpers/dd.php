@@ -1,9 +1,7 @@
 <?php
-    function dd($dato){
-        echo "<pre>";
-            var_dump($dato);
-        echo "</pre>";
-        //exit;
-    }
-
-?>
+function dd($datos){
+    echo "<pre>";
+    var_dump($datos);
+    echo"</pre>";
+    exit;
+}
